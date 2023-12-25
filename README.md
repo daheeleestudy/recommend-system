@@ -82,10 +82,9 @@ https://drive.google.com/drive/u/0/folders/18c9lfUHzurhkHI0cQINRkQ9xyuBx2rnE
 비교대상 가격과 같은 추천항목들이 별점(steamRating) 고려 없이 가중치가 0이 되면서 
 상위에 랭크됨 
 → 회전초밥처럼 기존 값들과 너무 차이나는 가격을 갖는 값 삭제 및 가격에 log 적용
+![image](https://github.com/daheeleestudy/recommendation-system/assets/139957707/4dc5b23e-8215-4018-8314-20193a8b5db3)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/967ba761-8b8a-4188-943c-ca52d45d7592/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ca890c7-4a73-4625-92c3-621ae35d32af/Untitled.png)
 
 ---
 
@@ -107,13 +106,8 @@ https://drive.google.com/drive/u/0/folders/18c9lfUHzurhkHI0cQINRkQ9xyuBx2rnE
 로그화 했을때 NDCG- 0.391/ 로그화 하지 않았을때 NDCG- 0.34 나옴
 →  NDCG 높은 로그화 relevant_value 식 채택
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c108d8c-4869-4ed1-9b66-0bc0dabb9197/Untitled.png)
+![image](https://github.com/daheeleestudy/recommendation-system/assets/139957707/90625f02-9360-428d-b0cd-6b0448d5c0b5)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/16d9fc68-33f1-4e1a-bc31-b43016b764fb/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/659d22e9-27df-410d-9a2d-2f3ba23f1d98/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15e9982e-10e2-4974-bee4-9d1edc28f3b8/Untitled.png)
 
 1. 피처 수가 작은데 그 안에서 relevant_value를 정하려 하니 추천시스템에 사용했던 피처가 
 NDCG 평가기준이 되어 이중 고려가 되는 상황 발생 : NDCG가 독자적인 평가 기준이 될 수 없음
