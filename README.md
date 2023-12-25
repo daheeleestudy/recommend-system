@@ -82,7 +82,8 @@ https://drive.google.com/drive/u/0/folders/18c9lfUHzurhkHI0cQINRkQ9xyuBx2rnE
 비교대상 가격과 같은 추천항목들이 별점(steamRating) 고려 없이 가중치가 0이 되면서 
 상위에 랭크됨 
 → 회전초밥처럼 기존 값들과 너무 차이나는 가격을 갖는 값 삭제 및 가격에 log 적용
-![image](https://github.com/daheeleestudy/recommendation-system/assets/139957707/4dc5b23e-8215-4018-8314-20193a8b5db3)
+![스크린샷 2023-12-25 172249](https://github.com/daheeleestudy/recommendation-system/assets/139957707/76d66b64-8def-4b88-9b54-1d7728125716)
+
 
 
 
